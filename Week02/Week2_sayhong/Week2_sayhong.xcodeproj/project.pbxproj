@@ -26,7 +26,6 @@
 		B13CCEE02B14EF430031E97A /* titleFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13CCEDF2B14EF430031E97A /* titleFont.swift */; };
 		B13CCEE22B14EF510031E97A /* movieTitleFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13CCEE12B14EF510031E97A /* movieTitleFont.swift */; };
 		B13CCEE42B14EF630031E97A /* dateFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13CCEE32B14EF630031E97A /* dateFont.swift */; };
-		B13CCEE62B14F0660031E97A /* font in Resources */ = {isa = PBXBuildFile; fileRef = B13CCEE52B14F0660031E97A /* font */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +49,6 @@
 		B13CCEDF2B14EF430031E97A /* titleFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titleFont.swift; sourceTree = "<group>"; };
 		B13CCEE12B14EF510031E97A /* movieTitleFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieTitleFont.swift; sourceTree = "<group>"; };
 		B13CCEE32B14EF630031E97A /* dateFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateFont.swift; sourceTree = "<group>"; };
-		B13CCEE52B14F0660031E97A /* font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = font; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +65,6 @@
 		B13CCEA82B14ECF60031E97A = {
 			isa = PBXGroup;
 			children = (
-				B13CCEE52B14F0660031E97A /* font */,
 				B13CCEB32B14ECF60031E97A /* Week2_Sayhong */,
 				B13CCEB22B14ECF60031E97A /* Products */,
 			);
@@ -216,7 +213,6 @@
 				B13CCEBC2B14ECF70031E97A /* Preview Assets.xcassets in Resources */,
 				B13CCEB92B14ECF70031E97A /* Assets.xcassets in Resources */,
 				B13CCECE2B14EE3A0031E97A /* movieInfo.json in Resources */,
-				B13CCEE62B14F0660031E97A /* font in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
