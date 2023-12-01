@@ -9,9 +9,10 @@ import SwiftUI
 
 struct DetailGridView: View {
     var body: some View {
+        VStack {
             ZStack {
                 Rectangle()
-                    .frame(width: 150,height: 150)
+                    .frame(width: 150,height: 180)
                     .clipShape(RoundedRectangle(cornerRadius: 25))
                     .foregroundStyle(.bg)
                 
@@ -19,9 +20,10 @@ struct DetailGridView: View {
                     Image("nike1")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 190)
+                        .frame(width: 230)
                         .rotationEffect(Angle(radians: 5.6))
-                        .padding(.trailing, 40)
+                        .shadow(color: .black, radius: 10)
+                        .padding(.trailing, 50)
                     HStack(spacing: 35) {
                         HStack {
                             Image(systemName: "star.fill")
@@ -30,18 +32,27 @@ struct DetailGridView: View {
                         .font(.callout)
                         .fontWeight(.semibold)
                         .foregroundStyle(.white)
-            
+                        
                         Image(systemName: "heart")
-                            .frame(width: 30, height: 30)
+                            .frame(width: 40, height: 40)
                             .foregroundStyle(.white)
-                            .background(.gray)
+                            .background(Color(.button))
                             .clipShape(RoundedRectangle(cornerRadius: 10))
                     }
                 }
-                .padding(.bottom, 130)
             }
+            
+            VStack {
+                Text("Nike Air Force")
+                    .foregroundStyle(.white)
+                Text("$180")
+                    .foregroundStyle(.gray)
+            }
+            .fontWeight(.bold)
+            .fontDesign(.serif)
         }
     }
+}
 
 #Preview {
     DetailGridView()

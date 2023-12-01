@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var columns = Array(repeating: GridItem(.flexible(), spacing: 20), count: 2)
+    var columns = Array(repeating: GridItem(.flexible(), spacing: 0), count: 2)
     
     var body: some View {
         NavigationStack {
@@ -20,7 +20,7 @@ struct ContentView: View {
                 
                 ScrollView {
                     LazyVGrid(columns: columns) {
-                        ForEach(0..<6) { index in
+                        ForEach(0..<4) { index in
                             DetailGridView()
                         }
                     }

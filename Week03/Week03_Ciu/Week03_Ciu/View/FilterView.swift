@@ -18,29 +18,31 @@ struct FilterView: View {
             
             HStack {
                 Text("Shoes")
+                    .underline()
                 
                 Text("Clothing")
-                    .foregroundStyle(.bg)
+                    .foregroundStyle(.gray)
                     .padding()
             }
-            .font(.subheadline)
+            .font(.system(size: 17, weight: .semibold, design: .serif))
             .fontWeight(.semibold)
             .foregroundStyle(.white)
             
             
             Spacer()
             
-            Image(systemName: "square.grid.3x1.below.line.grid.1x2")
+            Image(systemName: "square.grid.2x2.fill")
                 .foregroundStyle(.white)
             
             Spacer()
             
-            HStack(spacing: 15) {
+            HStack(spacing: 5) {
                 Image(systemName: "magnifyingglass")
                     .foregroundStyle(.white)
                 TextField(text: $text) {
                     Text("Search...")
                         .font(.subheadline)
+                        .fontDesign(.serif)
                         .foregroundStyle(Color(.systemGray4))
                 }
             }

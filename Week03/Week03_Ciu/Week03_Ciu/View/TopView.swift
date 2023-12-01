@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TopView: View {
     var body: some View {
-        VStack(alignment: .leading, spacing: -10) {
+        VStack(alignment: .leading, spacing: -20) {
             HStack {
                 Image("nike")
                     .resizable()
@@ -35,6 +35,7 @@ struct TopView: View {
             Text("Collections")
                 .font(.title)
                 .fontWeight(.bold)
+                .fontDesign(.serif)
                 .foregroundStyle(.white)
                 .padding()
         }
