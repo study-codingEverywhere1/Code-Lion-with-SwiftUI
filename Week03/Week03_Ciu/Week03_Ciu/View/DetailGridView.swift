@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct DetailGridView: View {
+    
+    @State private var ButtonOnOff: Bool = false
+    
     var body: some View {
         VStack {
             ZStack {
@@ -33,11 +36,24 @@ struct DetailGridView: View {
                         .fontWeight(.semibold)
                         .foregroundStyle(.white)
                         
-                        Image(systemName: "heart")
-                            .frame(width: 40, height: 40)
-                            .foregroundStyle(.white)
-                            .background(Color(.button))
-                            .clipShape(RoundedRectangle(cornerRadius: 10))
+                        Button {
+                            ButtonOnOff.toggle()
+                        } label: {
+                            if ButtonOnOff == false {
+                                Image(systemName: "heart")
+                                    .frame(width: 40, height: 40)
+                                    .foregroundStyle(.white)
+                                    .background(Color(.button))
+                                    .clipShape(RoundedRectangle(cornerRadius: 10))
+                            } else {
+                                Image(systemName: "heart.fill")
+                                    .frame(width: 40, height: 40)
+                                    .foregroundStyle(.red)
+                                    .background(.white)
+                                    .clipShape(RoundedRectangle(cornerRadius: 10))
+                            }
+                        }
+                        .shadow(color: .gray, radius: 0.9)
                     }
                 }
             }
