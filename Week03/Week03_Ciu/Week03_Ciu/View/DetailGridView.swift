@@ -10,27 +10,29 @@ import SwiftUI
 struct DetailGridView: View {
     
     @State private var ButtonOnOff: Bool = false
+    var nike: Nike
     
     var body: some View {
         VStack {
-            ZStack {
+            ZStack(alignment: .bottom) {
                 Rectangle()
-                    .frame(width: 150,height: 180)
+                    .frame(width: 160,height: 200)
                     .clipShape(RoundedRectangle(cornerRadius: 25))
                     .foregroundStyle(.bg)
+                    .shadow(color: .gray, radius: 1)
                 
-                VStack(spacing: -20) {
-                    Image("nike1")
+                VStack(spacing: -25) {
+                    Image(nike.image)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 230)
-                        .rotationEffect(Angle(radians: 5.6))
+                        .frame(width: 190)
+                        .rotationEffect(Angle(radians: 5.5))
                         .shadow(color: .black, radius: 10)
-                        .padding(.trailing, 50)
+                        .padding(.trailing, 60)
                     HStack(spacing: 35) {
                         HStack {
                             Image(systemName: "star.fill")
-                            Text("4.8")
+                            Text(nike.star)
                         }
                         .font(.callout)
                         .fontWeight(.semibold)
@@ -55,21 +57,24 @@ struct DetailGridView: View {
                         }
                         .shadow(color: .gray, radius: 0.9)
                     }
+                    .padding()
                 }
             }
             
-            VStack {
-                Text("Nike Air Force")
+            VStack(spacing: 10) {
+                Text(nike.name)
                     .foregroundStyle(.white)
-                Text("$180")
+                    .multilineTextAlignment(.center)
+                Text("$ \(nike.price)")
                     .foregroundStyle(.gray)
             }
             .fontWeight(.bold)
             .fontDesign(.serif)
+            .padding()
         }
     }
 }
 
 #Preview {
-    DetailGridView()
+    DetailGridView(nike: Nike(name: "Nike Air Force", price: 180, star: "4.8", image: "nike1"))
 }

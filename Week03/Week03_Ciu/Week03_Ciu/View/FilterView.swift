@@ -31,7 +31,7 @@ struct FilterView: View {
             
             Spacer()
             
-            Image(systemName: "square.grid.2x2.fill")
+            Image(systemName: "slider.horizontal.3")
                 .foregroundStyle(.white)
             
             Spacer()

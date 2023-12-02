@@ -14,16 +14,26 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack(alignment: .leading) {
-                TopView()
+                HeaderView()
                 
                 FilterView()
                 
                 ScrollView {
-                    LazyVGrid(columns: columns) {
-                        ForEach(0..<4) { index in
-                            DetailGridView()
+                    LazyVGrid(columns: columns, spacing: 0) {
+                        ForEach(0..<nikeData.count, id: \.self) { nike in
+                            
+                            // 짝수 배열이면 오프셋 y를 -40만큼 내림.
+                            if nike % 2 == 1 {
+                                DetailGridView(nike: nikeData[nike])
+                                
+                            } else {
+                                DetailGridView(nike: nikeData[nike])
+                                    .offset(y: -40)
+                            }
                         }
+                        .padding(.bottom, -20)
                     }
+                    
                 }
             }
             .background(.black)
