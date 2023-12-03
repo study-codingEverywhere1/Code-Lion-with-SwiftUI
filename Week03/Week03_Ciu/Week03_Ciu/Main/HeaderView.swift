@@ -18,8 +18,9 @@ struct HeaderView: View {
                 Spacer()
                 
                 Button {
-                    // action
+                    // MARK: = action
                 } label: {
+                    // MARK: = Custom Menu Button
                     VStack(alignment: .trailing) {
                         Capsule()
                             .frame(width: 20, height: 3)
