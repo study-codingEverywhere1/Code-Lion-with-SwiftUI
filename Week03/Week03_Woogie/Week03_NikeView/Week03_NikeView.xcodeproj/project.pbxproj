@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64BDAA3E2B258F5900928E98 /* Week03_NikeViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BDAA3D2B258F5900928E98 /* Week03_NikeViewApp.swift */; };
+		64BDAA402B258F5900928E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BDAA3F2B258F5900928E98 /* ContentView.swift */; };
+		64BDAA422B258F5D00928E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BDAA412B258F5D00928E98 /* Assets.xcassets */; };
+		64BDAA452B258F5D00928E98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BDAA442B258F5D00928E98 /* Preview Assets.xcassets */; };
+		64BDAA4D2B2591D600928E98 /* ShoesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BDAA4C2B2591D600928E98 /* ShoesCell.swift */; };
+		64BDAA502B2594CA00928E98 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BDAA4F2B2594CA00928E98 /* ColorExtension.swift */; };
+		64BDAA532B25A08000928E98 /* Shoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BDAA522B25A08000928E98 /* Shoes.swift */; };
+		64BDAA572B25A81A00928E98 /* MainTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BDAA562B25A81A00928E98 /* MainTopView.swift */; };
+		64BDAA592B25B4CD00928E98 /* SelectShoesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BDAA582B25B4CD00928E98 /* SelectShoesView.swift */; };
+		64BDAA5C2B25E6FE00928E98 /* CustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BDAA5B2B25E6FE00928E98 /* CustomBackButton.swift */; };
+		64BDAA5F2B25E78300928E98 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BDAA5E2B25E78300928E98 /* CartView.swift */; };
+		64BDAA612B25E7B500928E98 /* SizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BDAA602B25E7B500928E98 /* SizeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64BDAA3A2B258F5900928E98 /* Week03_NikeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week03_NikeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BDAA3D2B258F5900928E98 /* Week03_NikeViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week03_NikeViewApp.swift; sourceTree = "<group>"; };
+		64BDAA3F2B258F5900928E98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64BDAA412B258F5D00928E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64BDAA442B258F5D00928E98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64BDAA4C2B2591D600928E98 /* ShoesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesCell.swift; sourceTree = "<group>"; };
+		64BDAA4F2B2594CA00928E98 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		64BDAA522B25A08000928E98 /* Shoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoes.swift; sourceTree = "<group>"; };
+		64BDAA562B25A81A00928E98 /* MainTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTopView.swift; sourceTree = "<group>"; };
+		64BDAA582B25B4CD00928E98 /* SelectShoesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectShoesView.swift; sourceTree = "<group>"; };
+		64BDAA5B2B25E6FE00928E98 /* CustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButton.swift; sourceTree = "<group>"; };
+		64BDAA5E2B25E78300928E98 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		64BDAA602B25E7B500928E98 /* SizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64BDAA372B258F5900928E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64BDAA312B258F5900928E98 = {
+			isa = PBXGroup;
+			children = (
+				64BDAA3C2B258F5900928E98 /* Week03_NikeView */,
+				64BDAA3B2B258F5900928E98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64BDAA3B2B258F5900928E98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64BDAA3A2B258F5900928E98 /* Week03_NikeView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64BDAA3C2B258F5900928E98 /* Week03_NikeView */ = {
+			isa = PBXGroup;
+			children = (
+				64BDAA512B25A06F00928E98 /* Model */,
+				64BDAA4E2B2594A900928E98 /* Extension */,
+				64BDAA4B2B2591AC00928E98 /* View */,
+				64BDAA3D2B258F5900928E98 /* Week03_NikeViewApp.swift */,
+				64BDAA3F2B258F5900928E98 /* ContentView.swift */,
+				64BDAA412B258F5D00928E98 /* Assets.xcassets */,
+				64BDAA432B258F5D00928E98 /* Preview Content */,
+			);
+			path = Week03_NikeView;
+			sourceTree = "<group>";
+		};
+		64BDAA432B258F5D00928E98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64BDAA442B258F5D00928E98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64BDAA4B2B2591AC00928E98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64BDAA5D2B25E72100928E98 /* SelectShoes */,
+				64BDAA5A2B25E6E400928E98 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64BDAA4E2B2594A900928E98 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				64BDAA4F2B2594CA00928E98 /* ColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		64BDAA512B25A06F00928E98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64BDAA522B25A08000928E98 /* Shoes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64BDAA5A2B25E6E400928E98 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				64BDAA4C2B2591D600928E98 /* ShoesCell.swift */,
+				64BDAA562B25A81A00928E98 /* MainTopView.swift */,
+				64BDAA5B2B25E6FE00928E98 /* CustomBackButton.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		64BDAA5D2B25E72100928E98 /* SelectShoes */ = {
+			isa = PBXGroup;
+			children = (
+				64BDAA582B25B4CD00928E98 /* SelectShoesView.swift */,
+				64BDAA5E2B25E78300928E98 /* CartView.swift */,
+				64BDAA602B25E7B500928E98 /* SizeView.swift */,
+			);
+			path = SelectShoes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64BDAA392B258F5900928E98 /* Week03_NikeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BDAA482B258F5D00928E98 /* Build configuration list for PBXNativeTarget "Week03_NikeView" */;
+			buildPhases = (
+				64BDAA362B258F5900928E98 /* Sources */,
+				64BDAA372B258F5900928E98 /* Frameworks */,
+				64BDAA382B258F5900928E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Week03_NikeView;
+			productName = Week03_NikeView;
+			productReference = 64BDAA3A2B258F5900928E98 /* Week03_NikeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64BDAA322B258F5900928E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					64BDAA392B258F5900928E98 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 64BDAA352B258F5900928E98 /* Build configuration list for PBXProject "Week03_NikeView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64BDAA312B258F5900928E98;
+			productRefGroup = 64BDAA3B2B258F5900928E98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64BDAA392B258F5900928E98 /* Week03_NikeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64BDAA382B258F5900928E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BDAA452B258F5D00928E98 /* Preview Assets.xcassets in Resources */,
+				64BDAA422B258F5D00928E98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64BDAA362B258F5900928E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BDAA5F2B25E78300928E98 /* CartView.swift in Sources */,
+				64BDAA592B25B4CD00928E98 /* SelectShoesView.swift in Sources */,
+				64BDAA5C2B25E6FE00928E98 /* CustomBackButton.swift in Sources */,
+				64BDAA612B25E7B500928E98 /* SizeView.swift in Sources */,
+				64BDAA4D2B2591D600928E98 /* ShoesCell.swift in Sources */,
+				64BDAA402B258F5900928E98 /* ContentView.swift in Sources */,
+				64BDAA532B25A08000928E98 /* Shoes.swift in Sources */,
+				64BDAA572B25A81A00928E98 /* MainTopView.swift in Sources */,
+				64BDAA3E2B258F5900928E98 /* Week03_NikeViewApp.swift in Sources */,
+				64BDAA502B2594CA00928E98 /* ColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64BDAA462B258F5D00928E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64BDAA472B258F5D00928E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64BDAA492B258F5D00928E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Week03_NikeView/Preview Content\"";
+				DEVELOPMENT_TEAM = 5KA6J79S24;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woogie.Week03-NikeView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64BDAA4A2B258F5D00928E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Week03_NikeView/Preview Content\"";
+				DEVELOPMENT_TEAM = 5KA6J79S24;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woogie.Week03-NikeView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64BDAA352B258F5900928E98 /* Build configuration list for PBXProject "Week03_NikeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BDAA462B258F5D00928E98 /* Debug */,
+				64BDAA472B258F5D00928E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64BDAA482B258F5D00928E98 /* Build configuration list for PBXNativeTarget "Week03_NikeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BDAA492B258F5D00928E98 /* Debug */,
+				64BDAA4A2B258F5D00928E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64BDAA322B258F5900928E98 /* Project object */;
+}
